@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f5dfd26a1e4990ab4b0eaafc95e566, type: 3}
+  m_Name: BattleConfig
+  m_EditorClassIdentifier: 
+  BaseMeleeDeadHitRagdollForce: 100
+  BaseRangeDeadHitRagdollForce: 70
+  BaseExplosionHitRagdollForce: 2
+  ExplosionForceFactorFromRadius:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0041656494
+      value: 0.9952698
+      inSlope: -0.05247371
+      outSlope: -0.05247371
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1.0151062
+      value: -0.0068359375
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ExplosionDamageFactorFromRadius:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.25857544
+      value: 1.001667
+      inSlope: -0.05247371
+      outSlope: -0.05247371
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.85107005
+      value: 0.6830936
+      inSlope: -1.5126876
+      outSlope: -1.5126876
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.45620713
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0075378
+      value: 0.19787598
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

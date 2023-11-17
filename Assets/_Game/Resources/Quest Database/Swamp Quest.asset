@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccbc022b83241ec439555d346c5bcb83, type: 3}
+  m_Name: Swamp Quest
+  m_EditorClassIdentifier: 
+  _itemsLibrary: {fileID: 11400000, guid: 7b92f6334648efd4f97ee18cbf8c809e, type: 2}
+  <ID>k__BackingField: Swamp Quest
+  <Description>k__BackingField: 
+  <QuestScope>k__BackingField: 0
+  questSteps:
+  - Description: Go to Swamp Location
+    QuestScope: 0
+    StepType: 2
+    category: 0
+    chunkCoord:
+      X: 1
+      Y: 2
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 0
+        _name: 
+      _itemsCount: 0
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: e42bb98e1d0c25c43be524a9db3d2cbf, type: 3}
+  - Description: Collect Iron
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1946796764
+        _name: Iron
+      _itemsCount: 6
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 4e26ae1268cbefa4c81fc8f9dce7e105, type: 3}
+  - Description: Craft iron pipes
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1925030590
+        _name: Iron Ingot
+      _itemsCount: 2
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: ad01227704fcaaf4b9022f942742b585, type: 3}
+  - Description: Kill bandits
+    QuestScope: 0
+    StepType: 3
+    category: 20
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2024651496
+        _name: Bullet - Pistol Cartriges
+      _itemsCount: 10
+    Count: 10
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 311e319c7442ea241a736b28681b8901, type: 3}
+  - Description: Find Weapon parts
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 255266304
+        _name: Weapon parts
+      _itemsCount: 4
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 7460aef7932fc054496875f88714a212, type: 3}
+  - Description: Craft Shotgun
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2967574762
+        _name: Shotgun
+      _itemsCount: 1
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: c3324856a2a5043eeb4b56b56219dc72, type: 3}
+  - Description: Craft Shotgun Bullet
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 300850068
+        _name: Bullet - ShotGun Cartriges
+      _itemsCount: 15
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 5316b4436edb0ee41993f072971769d1, type: 3}
+  - Description: Craft Durable fabric
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 3182477359
+        _name: Durable Fabric
+      _itemsCount: 20
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: b3a98f7debd67d744a78c5fab602cfb9, type: 3}
+  - Description: Craft Iron Plate
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 744212643
+        _name: Iron Plate
+      _itemsCount: 8
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: e2af96b47cccbad49b9fbe8b11236334, type: 3}
+  - Description: Craft Breast Armor Lv 3
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2594842010
+        _name: BreastArmor lvl 3
+      _itemsCount: 1
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 5226c332a62e08c4b9505839faf6ada0, type: 3}
+  - Description: Kill Zombies
+    QuestScope: 0
+    StepType: 3
+    category: 10
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2024651496
+        _name: Bullet - Pistol Cartriges
+      _itemsCount: 10
+    Count: 10
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: d22774d5ee056974ab64f6a071768c97, type: 3}
+  - Description: Kill bandits
+    QuestScope: 0
+    StepType: 3
+    category: 20
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2024651496
+        _name: Bullet - Pistol Cartriges
+      _itemsCount: 10
+    Count: 10
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 311e319c7442ea241a736b28681b8901, type: 3}
+  - Description: Craft Head Armor Lv 3
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1753179316
+        _name: HeadArmor lvl 3
+      _itemsCount: 1
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 35120b851fa8c4a4aabc186ee2f675c1, type: 3}
+  - Description: Craft Shotgun Bullet
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 300850068
+        _name: Bullet - ShotGun Cartriges
+      _itemsCount: 15
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 5316b4436edb0ee41993f072971769d1, type: 3}
+  - Description: Kill Boss Swamp
+    QuestScope: 1
+    StepType: 3
+    category: 30
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 1
+      Y: 2
+    ItemsStack:
+      _item:
+        _id: 0
+        _name: 
+      _itemsCount: 0
+    Count: 1
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 978f5921e87d04a7f88a2dc6c330fab2, type: 3}
+  RewardOpen:
+    X: 2
+    Y: 2

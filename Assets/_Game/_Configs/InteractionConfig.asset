@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92ee576d8f474dd9b89caa168e4682f2, type: 3}
+  m_Name: InteractionConfig
+  m_EditorClassIdentifier: 
+  _enableAutoInteraction: 1
+  _restartInteractionDelay: 0.5
+  _consumingEnergyInterval: 10
+  _idleConsumingEnergySpeed: 0
+  _runConsumingEnergySpeed: 0
+  _homeRestoreHealthInterval: 2
+  _homeRestoreHealthSpeed: 20
+  _homeRestoreEnergyInterval: 5
+  _homeRestoreEnergySpeed: 5
+  _showConsumeEnergyBubbleForEnemyKill: 0
+  _showConsumeEnergyBubbleForResourceHit: 0
+  _showConsumeEnergyBubbleForLevelTransition: 1
+  _liveParametersBubbleThrottleDuration: 0.1
+  _deadScreenDelay: 3
+  _activationContainerAfterDelayEnemyDead: 0.5

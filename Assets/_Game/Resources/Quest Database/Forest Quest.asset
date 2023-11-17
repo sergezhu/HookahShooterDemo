@@ -1,0 +1,631 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccbc022b83241ec439555d346c5bcb83, type: 3}
+  m_Name: Forest Quest
+  m_EditorClassIdentifier: 
+  _itemsLibrary: {fileID: 11400000, guid: 7b92f6334648efd4f97ee18cbf8c809e, type: 2}
+  <ID>k__BackingField: Forest Quest
+  <Description>k__BackingField: Forest
+  <QuestScope>k__BackingField: 0
+  questSteps:
+  - Description: Kill Zombies
+    QuestScope: 0
+    StepType: 3
+    category: 10
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 0
+        _name: 
+      _itemsCount: 0
+    Count: 3
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: d22774d5ee056974ab64f6a071768c97, type: 3}
+  - Description: Find Fabric
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 3371755315
+        _name: Fabric
+      _itemsCount: 11
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 01624a3d50cb3dd4384b15d7bd09965f, type: 3}
+  - Description: Find Plastic
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1583638024
+        _name: Plastic
+      _itemsCount: 10
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 89ff9860fdeff654781540ac0f51ba96, type: 3}
+  - Description: Find Rope
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1284819249
+        _name: Rope
+      _itemsCount: 8
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 63533c51611828543b56396d01bdcc5e, type: 3}
+  - Description: Go To Home
+    QuestScope: 0
+    StepType: 2
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 3
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 0
+        _name: 
+      _itemsCount: 0
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 2350fdbe01c4d42649eaf2b3259e2021, type: 3}
+  - Description: Craft HeadArmor lvl 1
+    QuestScope: 0
+    StepType: 0
+    category: 20
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 13277732
+        _name: HeadArmor lvl 1
+      _itemsCount: 1
+    Count: 3
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 53d25bf640307d2479edf21a8f2201c2, type: 3}
+  - Description: Go To Forest Location
+    QuestScope: 0
+    StepType: 2
+    category: 0
+    chunkCoord:
+      X: 1
+      Y: 3
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 0
+        _name: 
+      _itemsCount: 0
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: c77e5788f7162c447b0203d24a9fce75, type: 3}
+  - Description: Find Duct Tape
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2455072087
+        _name: Duct tape
+      _itemsCount: 3
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 741ffde1d78abe644b4dc16261fca43f, type: 3}
+  - Description: Collect Wood
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 797281325
+        _name: Wood
+      _itemsCount: 20
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: ae8d90d01a0be0c48930139064b9b8fe, type: 3}
+  - Description: Craft Boards
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 770320904
+        _name: Board
+      _itemsCount: 5
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: f44ce24d956b48b45a7b5d9f7271b4e6, type: 3}
+  - Description: Craft stick with nails
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 3210536219
+        _name: Stick with nails
+      _itemsCount: 1
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: a7f9165d7118a7d43825f9e604d1f3b2, type: 3}
+  - Description: Collect Stone
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1222874136
+        _name: Stone
+      _itemsCount: 10
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 1db40ded4f0a8df449030b6362dbd413, type: 3}
+  - Description: Collect Wood
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 797281325
+        _name: Wood
+      _itemsCount: 20
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: ae8d90d01a0be0c48930139064b9b8fe, type: 3}
+  - Description: Go To Home
+    QuestScope: 0
+    StepType: 2
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 3
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 0
+        _name: 
+      _itemsCount: 0
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 2350fdbe01c4d42649eaf2b3259e2021, type: 3}
+  - Description: Build Smelting Table
+    QuestScope: 0
+    StepType: 4
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 3
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 0
+        _name: 
+      _itemsCount: 0
+    Count: 0
+    BuildingProgress:
+      BuildingID: 70
+      Progress: 1
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: da29cd5dc6d39dc4a98269b01aaa53e2, type: 3}
+  - Description: Craft Gun pouder
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 3
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2232296383
+        _name: Gun Powder
+      _itemsCount: 6
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: c654cba8b1e8d25428069ff1036444a4, type: 3}
+  - Description: Craft Pistol
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 3
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1572131989
+        _name: Simple Pistol
+      _itemsCount: 1
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 60e089a2618003647aca28f4b5376b67, type: 3}
+  - Description: Craft Bullets
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 3
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2024651496
+        _name: Bullet - Pistol Cartriges
+      _itemsCount: 15
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 4c9f0091e0f67224d876b39c4a38ebc9, type: 3}
+  - Description: Craft BreastArmor lvl 1
+    QuestScope: 0
+    StepType: 0
+    category: 20
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 886979102
+        _name: BreastArmor lvl 1
+      _itemsCount: 1
+    Count: 3
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: e315dd788a2a2394c83d427be2650802, type: 3}
+  - Description: Kill bandits
+    QuestScope: 0
+    StepType: 3
+    category: 20
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2024651496
+        _name: Bullet - Pistol Cartriges
+      _itemsCount: 10
+    Count: 5
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 311e319c7442ea241a736b28681b8901, type: 3}
+  - Description: Craft Boards
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 770320904
+        _name: Board
+      _itemsCount: 15
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: f44ce24d956b48b45a7b5d9f7271b4e6, type: 3}
+  - Description: Craft Bricks
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 14537163
+        _name: Brick
+      _itemsCount: 5
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 9653006fa77b6974eb6418eb11445746, type: 3}
+  - Description: Craft Gun Table
+    QuestScope: 0
+    StepType: 4
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1925030590
+        _name: Iron Ingot
+      _itemsCount: 2
+    Count: 0
+    BuildingProgress:
+      BuildingID: 110
+      Progress: 1
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: e326c0cd5b4a90e44914b79a2ce9d8d1, type: 3}
+  - Description: Craft Armour Table
+    QuestScope: 0
+    StepType: 4
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1925030590
+        _name: Iron Ingot
+      _itemsCount: 2
+    Count: 0
+    BuildingProgress:
+      BuildingID: 90
+      Progress: 1
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 98a0c9ec841230f4fa57bf96d973022a, type: 3}
+  - Description: Kill bandits
+    QuestScope: 0
+    StepType: 3
+    category: 20
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2024651496
+        _name: Bullet - Pistol Cartriges
+      _itemsCount: 10
+    Count: 10
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 311e319c7442ea241a736b28681b8901, type: 3}
+  - Description: Craft FeetArmor lvl 1
+    QuestScope: 0
+    StepType: 0
+    category: 20
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 3816354334
+        _name: FeetArmor lvl 1
+      _itemsCount: 1
+    Count: 3
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 8ff45594c98af6e4caf184d9608b72cc, type: 3}
+  - Description: Craft LegsArmor lvl 1
+    QuestScope: 0
+    StepType: 0
+    category: 20
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1683737983
+        _name: LegsArmor lvl 1
+      _itemsCount: 1
+    Count: 3
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 1098ffd5d220d3a47af1310757b764ff, type: 3}
+  - Description: Craft Bullets
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 3
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2024651496
+        _name: Bullet - Pistol Cartriges
+      _itemsCount: 30
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 4c9f0091e0f67224d876b39c4a38ebc9, type: 3}
+  - Description: Kill Boss Forest
+    QuestScope: 1
+    StepType: 3
+    category: 30
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 1
+      Y: 3
+    ItemsStack:
+      _item:
+        _id: 0
+        _name: 
+      _itemsCount: 0
+    Count: 1
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 978f5921e87d04a7f88a2dc6c330fab2, type: 3}
+  RewardOpen:
+    X: 1
+    Y: 2

@@ -3,20 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FX
+  - Missile
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Navigation
   - Water
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Hero
+  - DeadHero
+  - Enemy
+  - DeadEnemy
   - 
   - 
   - 

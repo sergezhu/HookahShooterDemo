@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccbc022b83241ec439555d346c5bcb83, type: 3}
+  m_Name: Tutorial Quest
+  m_EditorClassIdentifier: 
+  _itemsLibrary: {fileID: 11400000, guid: 7b92f6334648efd4f97ee18cbf8c809e, type: 2}
+  <ID>k__BackingField: Tutorial Quest
+  <Description>k__BackingField: Test Quest
+  <QuestScope>k__BackingField: 0
+  questSteps:
+  - Description: Build Craft Table
+    QuestScope: 0
+    StepType: 4
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 797281325
+        _name: Wood
+      _itemsCount: 15
+    Count: 0
+    BuildingProgress:
+      BuildingID: 30
+      Progress: 1
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 3adce72f4acd514459c9484070d1d127, type: 3}
+  - Description: Craft Bandages
+    QuestScope: 0
+    StepType: 1
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 1436281408
+        _name: Bandages
+      _itemsCount: 1
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 0}
+  RewardOpen:
+    X: 0
+    Y: 0

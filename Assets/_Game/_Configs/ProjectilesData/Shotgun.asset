@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b30e499ff1e4cf2b5ad7b2593dc2d47, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  _pool: {fileID: 11400000, guid: cd0b339b7081ac34faa13e6ce382e376, type: 2}
+  _hitFXPool: {fileID: 11400000, guid: eff80bd35e7de9d488accc08c40d6b79, type: 2}
+  _decalFXPool: {fileID: 0}
+  _force: 1
+  _maxQueueShootsCount: 4
+  _delayBetweenShootsInQueue: 0
+  _speed: 30
+  _gravityFactor: 2
+  _startAngleAboveHorizon: 0

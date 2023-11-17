@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccbc022b83241ec439555d346c5bcb83, type: 3}
+  m_Name: City Quest
+  m_EditorClassIdentifier: 
+  _itemsLibrary: {fileID: 11400000, guid: 7b92f6334648efd4f97ee18cbf8c809e, type: 2}
+  <ID>k__BackingField: City Quest
+  <Description>k__BackingField: Test Quest
+  <QuestScope>k__BackingField: 0
+  questSteps:
+  - Description: Go to City Location
+    QuestScope: 0
+    StepType: 2
+    category: 0
+    chunkCoord:
+      X: 2
+      Y: 2
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 0
+        _name: 
+      _itemsCount: 0
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 29fa6f07b421d294eb16b3d0839f7a49, type: 3}
+  - Description: Find Bolts
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 4089732267
+        _name: Bolts
+      _itemsCount: 3
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 7584a7bd5d1296547b87833e51878c20, type: 3}
+  - Description: Craft Armour Lv 4
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 3185560742
+        _name: LegsArmor lvl 4
+      _itemsCount: 1
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 9cd446e9dc02e364092c7446e9405d5f, type: 3}
+  - Description: Kill bandits
+    QuestScope: 0
+    StepType: 3
+    category: 20
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2024651496
+        _name: Bullet - Pistol Cartriges
+      _itemsCount: 10
+    Count: 10
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: 311e319c7442ea241a736b28681b8901, type: 3}
+  - Description: Kill Zombies
+    QuestScope: 0
+    StepType: 3
+    category: 10
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 2024651496
+        _name: Bullet - Pistol Cartriges
+      _itemsCount: 10
+    Count: 15
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 1
+    icon: {fileID: 21300000, guid: d22774d5ee056974ab64f6a071768c97, type: 3}
+  - Description: Craft AK47
+    QuestScope: 0
+    StepType: 0
+    category: 0
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 0
+      Y: 0
+    ItemsStack:
+      _item:
+        _id: 4137823941
+        _name: AK47
+      _itemsCount: 1
+    Count: 0
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 991eea5549b553245bc82b5398a82c08, type: 3}
+  - Description: Kill Boss City
+    QuestScope: 1
+    StepType: 3
+    category: 30
+    chunkCoord:
+      X: 0
+      Y: 0
+    questCoord:
+      X: 2
+      Y: 2
+    ItemsStack:
+      _item:
+        _id: 0
+        _name: 
+      _itemsCount: 0
+    Count: 1
+    BuildingProgress:
+      BuildingID: 0
+      Progress: 0
+    CountedTask: 0
+    icon: {fileID: 21300000, guid: 978f5921e87d04a7f88a2dc6c330fab2, type: 3}
+  RewardOpen:
+    X: 2
+    Y: 3

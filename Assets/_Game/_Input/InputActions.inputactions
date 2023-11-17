@@ -1,0 +1,390 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Dev Cheats",
+            "id": "1f2e13c0-df72-497d-b7ed-4939331eb21e",
+            "actions": [
+                {
+                    "name": "Next Level",
+                    "type": "Button",
+                    "id": "502a394b-8d45-4afc-bb57-504c90aa412f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Prev Level",
+                    "type": "Button",
+                    "id": "068e674b-6076-43c6-be01-ffac60b74169",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Next Stage",
+                    "type": "Button",
+                    "id": "58139453-f6b5-4e08-b996-375fedc39293",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PauseToggle",
+                    "type": "Button",
+                    "id": "58aa1a30-9a9a-4f38-aa4f-218aafefe828",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "31d0f56e-1207-47fc-97f3-49c1e07ece75",
+                    "path": "<Keyboard>/n",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Level",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1edbae40-2c93-4edd-91f5-f0c22f0c4c35",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Prev Level",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "50f8e49a-1422-4dd8-b80e-ae747b695e1a",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Stage",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a626007d-a8ce-4693-84d2-6ab87cc63149",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PauseToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Touch",
+            "id": "027526c5-59f0-46bd-8768-246a666b036b",
+            "actions": [
+                {
+                    "name": "TouchDelta",
+                    "type": "PassThrough",
+                    "id": "cb4d1c87-93f6-4aa6-9087-b149f25ac878",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchStartPosition",
+                    "type": "PassThrough",
+                    "id": "07e72776-49d3-4be9-ab19-0b69e9f050b7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchPress",
+                    "type": "Button",
+                    "id": "be812b2b-bbce-463a-ac81-4b792b7825fd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchRelease",
+                    "type": "Button",
+                    "id": "fc99cb7a-699b-4eb5-9913-fd5481c60187",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchPosition",
+                    "type": "PassThrough",
+                    "id": "ff44ae7c-8e06-4a81-b8a1-127047cb4981",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TapCount",
+                    "type": "PassThrough",
+                    "id": "b1b98003-86b8-441d-abb6-ef4b3fc4a2a3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0201f42b-d70f-4487-8ac0-4725f13fb1d7",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchDelta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4a9e804b-a2fc-4958-9433-ace7be6884af",
+                    "path": "<Touchscreen>/touch0/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1e135d5-2536-4202-ae99-6a35152a3680",
+                    "path": "<Touchscreen>/touch0/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9bc343c1-fa92-435e-bf38-1ff194c68c61",
+                    "path": "<Touchscreen>/touch0/startPosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchStartPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef1d43e6-c61a-4ff6-8e9e-64494da2a44d",
+                    "path": "<Touchscreen>/touch0/tapCount",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TapCount",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "282a2970-c556-4d27-9122-76d027a138b8",
+                    "path": "<Touchscreen>/touch0/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard",
+            "id": "f77b6aa7-cf9a-4fca-83b9-6f87d8acf6b1",
+            "actions": [
+                {
+                    "name": "MoveForwardPress",
+                    "type": "Button",
+                    "id": "f5a3f260-9c5f-4041-96e3-f17ac74706c5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveForwardRelease",
+                    "type": "Button",
+                    "id": "dc982a55-da27-4d3b-a5c3-10e9398e65a6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveBackwardPress",
+                    "type": "Button",
+                    "id": "0310166e-1a58-4bcb-9752-0802862615ba",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveBackwardRelease",
+                    "type": "Button",
+                    "id": "3e9719cc-3195-49eb-84ce-28855d74995f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveRightPress",
+                    "type": "Button",
+                    "id": "e7dd9100-08b5-42b1-9eed-cd8a07e942aa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveRightRelease",
+                    "type": "Button",
+                    "id": "e6dd5b7c-fbf0-4edc-babf-57546d3ca467",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveLeftPress",
+                    "type": "Button",
+                    "id": "35bb7bd7-9fea-41d6-8ee9-02d29d29d237",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveLeftRelease",
+                    "type": "Button",
+                    "id": "939ecef8-1e2c-4262-928f-fbdb7a1d0c83",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "39bf75cb-f664-450c-8f81-c15d823e1ea3",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveForwardPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a8ad0dfc-90d7-40ac-bd31-bbd04c867bda",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveForwardRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d003c217-be01-4c03-80a1-be83de6404bd",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveBackwardPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4c5acfb1-97f5-40e6-a23a-47ae98c3e28c",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveBackwardRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "62726a68-48a0-4803-a4a7-eb9330bc2e83",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveRightPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c02527cd-c24d-494e-83d8-2878a5f3457b",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveRightRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3460705a-ab00-4558-ba19-7c2b9c27e34e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeftPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7f91daa2-36cb-4597-ab47-05aabd9e8bce",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeftRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
